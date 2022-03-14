@@ -1,0 +1,36 @@
+$normal-color: #1c1c1c;
+$heading-color-2: #252525;
+
+.latest-product__item {
+    text-decoration: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+.latest-product__item__pic {
+    float: left;
+    margin-right: 26px;
+
+    img {
+        height: 110px;
+        width: 110px;
+    }
+}
+
+.latest-product__item__text {
+    overflow: hidden;
+    padding-top: 10px;
+
+    h6 {
+        color: $heading-color-2;
+        margin-bottom: 8px;
+    }
+
+    span {
+        font-size: 18px;
+        display: block;
+        color: $heading-color-2;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,44 @@
+$primary-color: rgb(127, 173, 57);
+$white-color: #ffffff;
+
+.header__mobile {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(127, 173, 57, 0.9);
+    display: none;
+    z-index: 1000;
+    overflow: hidden;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        height: 100%;
+        li {
+            a {
+                text-decoration: none;
+                color: $white-color;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 1px 0;
+
+                svg {
+                    margin-top: 4px;
+                    font-size: 1.5rem;
+                }
+                span {
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header__mobile {
+        display: block;
+        max-width: 768px;
+    }
+}

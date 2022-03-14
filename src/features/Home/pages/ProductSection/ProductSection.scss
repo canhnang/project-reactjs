@@ -1,0 +1,45 @@
+$normal-color: #1c1c1c;
+$heading-color-2: #252525;
+
+.latest-product {
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+
+.latest-product__text {
+    h4 {
+        font-weight: 700;
+        color: $normal-color;
+        margin: 45px 0;
+    }
+}
+
+.latest-product__slider {
+    &.owl-carousel {
+        .owl-nav {
+            position: absolute;
+            right: 20px;
+            top: -75px;
+
+            button {
+                height: 30px;
+                width: 30px;
+                background: #f3f6fa;
+                border: 1px solid #e6e6e6;
+                font-size: 14px;
+                color: #636363;
+                margin-right: 10px;
+                line-height: 30px;
+                text-align: center;
+
+                span {
+                    font-weight: 700;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
